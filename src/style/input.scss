@@ -27,10 +27,13 @@
         border-bottom: 1px solid $color-gray-two;
         margin-bottom: 1px;
         transition: all .3s ease;
+        box-shadow: inset 0px -1.5px 0px 0px $color-gray-two;
 
         &:focus {
             outline: none;
-            border-bottom: 1px solid rgb(0, 255, 247);
+            box-shadow: inset 0px -1.5px 0px 0px $color-gray-one;
+            z-index: 1;
+            border-bottom: none;
    
         }
     }
