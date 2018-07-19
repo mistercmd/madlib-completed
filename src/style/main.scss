@@ -10,7 +10,7 @@
 
 h1 {
     font-size: 36px;
-    font-weight: 500
+    font-weight: 500;
     line-height: 44px;
 }
 
@@ -29,7 +29,20 @@ p {
         color: white;
         &__skew {
             -webkit-clip-path: polygon(0 0, 100% 0%, 100% 25%, 0 50%);
-            clip-path: polygon(0 0, 100% 0%, 100% 25%, 0 50%)
+            clip-path: polygon(0 0, 100% 0%, 100% 25%, 0 50%);
+
+            z-index: -10;
+            top: 0;
+            left: 0;
+            position: absolute;
+            height: 110vh;
+            width: 100vw;
+            background-color: #444444;
+        }
+
+        &__border {
+            -webkit-clip-path: polygon(0 0, 100% 0%, 100% 25%, 0 50%);
+            clip-path: polygon(0 48%, 100% 23%, 100% 25%, 0 50%);
 
             z-index: -10;
             top: 0;
