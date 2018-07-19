@@ -8,19 +8,25 @@
         position: relative;
     }
 
-h1 {
-    font-size: 36px;
-    font-weight: 500;
-    line-height: 44px;
-}
 
-p {
-    color: rgba(255,255,255,0.75);
-    font-size: 15px;
-    font-weight: 300;
-    line-height: 19px;
-    width: 403px;
-}
+    h1 {
+        font-family: 'Montserrat';
+        color: white;
+        font-size: 36px;
+        font-weight: 500;
+        text-align: center;
+        line-height: 44px;
+    }
+
+    p {
+        color: rgba(255,255,255,255,.075);
+        font-family: 'Montserrat';
+        font-size: 15px;
+        text-align: center;
+        line-height: 19px;
+        width: 403px;
+    }
+
 
     .header {
         align-self: center;
@@ -64,9 +70,9 @@ p {
 
         display: grid;
         grid-template-rows: 1fr 50px;
+        background-color: white;
 
         &__inputs {
-            background-color: skyblue;
             display: grid;
             grid-template-rows: repeat(4, 1fr);
             grid-template-columns: repeat(4, 1fr);
